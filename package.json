@@ -4,6 +4,7 @@
   "description": "atp things data write into influxdb",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,13 +12,19 @@
     "url": "git+https://github.com/andrazpolak/atp_things_influxdb_write.git"
   },
   "keywords": [
-    "atp_things",
-    "ifluxdb"
+    "ATP_Things",
+    "IfluxDb",
+    "IoT",
+    "IIoT"
   ],
   "author": "Andraz Polak",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/andrazpolak/atp_things_influxdb_write/issues"
   },
-  "homepage": "https://github.com/andrazpolak/atp_things_influxdb_write#readme"
+  "homepage": "https://github.com/andrazpolak/atp_things_influxdb_write#readme",
+  "dependencies": {
+    "@influxdata/influxdb-client": "^1.13.0",
+    "dotenv": "^9.0.2"
+  }
 }
