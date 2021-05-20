@@ -1,0 +1,23 @@
+{
+  "name": "atp_things_influxdb_write",
+  "version": "1.0.0",
+  "description": "atp things data write into influxdb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrazpolak/atp_things_influxdb_write.git"
+  },
+  "keywords": [
+    "atp_things",
+    "ifluxdb"
+  ],
+  "author": "Andraz Polak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrazpolak/atp_things_influxdb_write/issues"
+  },
+  "homepage": "https://github.com/andrazpolak/atp_things_influxdb_write#readme"
+}
